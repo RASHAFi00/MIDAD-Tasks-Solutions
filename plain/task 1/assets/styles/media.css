@@ -1,0 +1,93 @@
+
+@media screen and (max-width: 1024px) {
+
+   .container {
+      padding: 0 1rem;
+      max-width: 85%;
+   }
+
+   nav .container {
+      max-width: 80%;
+   }
+
+
+
+   section.contact .container .social ul{
+      width: fit-content;
+      margin: auto;
+      gap: 3rem;
+   }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+   .container {
+      padding: 0 1rem;
+      max-width: 95%;
+   }
+
+   section.landing .container img.main-img{
+      scale: 0.85;
+   }
+
+   nav .container {
+      max-width: 90%;
+   }
+
+   nav .container .toggler {
+      display: flex;
+   }
+
+   nav .container .toggler:hover + .links{
+      display: block;
+   }
+
+   nav .container .links{
+      display: none;
+      position: absolute;
+      top: 72px;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      background-color: rgba(59, 59, 59, 0.808);
+      backdrop-filter: blur(3px);
+   }
+   nav .container .links ul{
+      flex-direction: column;
+   }
+   nav .container .links ul li{
+      width: 100%;
+      padding: .5rem;
+      text-align: center;
+      border-radius: 1rem;
+      cursor: pointer;
+      background-color: #19191971;
+   }
+   nav .container .links ul li a{
+      display: block;
+      width: 100%;
+   }
+
+
+   section.experience .container .text-block {
+      padding-bottom: 2rem;
+   }
+
+   section.experience .container .text-block span.date {
+      top: unset;
+      bottom: .25rem;
+   }
+
+
+
+   .extra{
+      justify-content: center;
+   }
+
+}
+
